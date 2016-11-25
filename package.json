@@ -12,13 +12,17 @@
   },
   "author": "Eldar <eldar.gamisoniya@gmail.com>",
   "dependencies": {
+    "bcryptjs": "^2.3.0",
     "bluebird": "^3.4.1",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "helmet": "^2.1.2",
+    "jwt-simple": "^0.5.1",
     "lodash": "^4.15.0",
     "mongoose": "^4.5.9",
-    "morgan": "^1.7.0"
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^3.2.2",
