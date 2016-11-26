@@ -4,7 +4,7 @@ const config = {
     port: process.env.PORT || 8080
   },
   mongo: {
-    url: process.env.MONGO_DB_URI || 'mongodb://localhost/schedule'
+    url: process.env.MONGO_DB_URI || 'mongodb://127.0.0.1/schedule'
   },
   secret: 'ThereShouldBeSecureSecret'
 };
